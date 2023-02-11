@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+a:link { text-decoration: none;}
+ul { list-style: none }
+
+/* Navigation Container */
+.container-fluid {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 4px #9F15DF;
+    align-items: baseline;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:black;
+}
+
+/* Nav Items */
+ul {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.logo {
+    margin-left: 35px;
+}
+
+.nav-items {
+     display: inline-block;
+     padding-inline: 32px;
+}
+
+.nav-links {
+    align-items: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:black;
+}
+/* Button */
+.cta {
+    align-items: center;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color:black;
+    margin-right: 35px;
+    color:black;
+    color: white;
+    border-radius: 35px;
+    padding-inline: 16px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    outline-style: none;
+    background-image: linear-gradient(to right, #EC40FF 0%, #9F15DF 51%, #B94299 100%);
+}
+/* Hero */
+.hero {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    border-bottom: solid 24px #9F15DF;
+}
+.statement {
+    margin-left: 40px;
+    margin-top: 40px;
+    padding-right: 200px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+}
+.sub_text {
+    margin-left: 40px;
+    padding-right: 200px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+.skill_items {
+    margin: 40px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+}
+/* Footer */
+.footer {
+    background-image: linear-gradient(to right, #EC40FF 0%, #9F15DF 51%, #B94299 100%);
+    display: flex;
+    align-items: center;
+    height: 320px;
+    border-bottom: solid 80px grey;
+}
+.col-1-contact {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    flex-grow: 1;
+    margin-left: 70px;
+}
+.col-2-nav {
+    margin-right: 70px;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: right;
+    color: white;
+}
+
+
+
+
